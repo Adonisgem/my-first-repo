@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="eu">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="adonis gem">
+        <meta name="description" content="this is my first time of writing html and will contain everything i will need to learn about html">
+<title>my first web page</title>
+    </head>
+    <body>
+        <header> 
+        <h1>hello world its gem</h1>
+
+<nav>
+    <ul>
+        <li>
+        <a href="#html">LEARNING HTML</a>
+        </li>
+
+        <li>
+            <a href="#vacation">MY VACATION</a>
+        </li>
+
+    </ul>
+</nav>
+
+<hr>
+
+<main>
+
+<section id="html">
+        <h2>im ready to learn html</h2>
+        <p>my first web page</p>
+
+        <figure>
+        <img src="img/save.webp" alt="my html" title="carrebian beach">
+        <figcaption>the beauty of nature</figcaption>
+    </figure>
+
+        <h3>my daily schedule on coding journey</h3>
+        <p>how i will start learning</p>
+        <ol>
+            <li>... let me explain how i determine to learning</li>
+            <li>... it may not be an easy journey but i,m determine </li>
+            <li>... resources from <abbr title="apalowo papaer learn">
+                <a href="https://aptlearn.io/studentlogin/">APT</a>
+            </abbr> learn</li>
+        </ol>
+    </section>
+</main>
+<hr>
+
+<section id="vacation">
+<h3>i am palnning on traveling</h3>
+        <p>i have been working for a while now so i need a break</p>
+        <p>i stay in ile ife osun state,<em>i need to refresh</em></p>
+        <h3>places id like to visit</h3>
+        <ul>
+        <li><p>i have heard alot about <abbr title="los angelis">LA</abbr></p></li>
+        <aside>
+            <details>
+                <summary>guess the name of my town</summary>
+                 <p>its ofe akoko north west</p>
+            </details>
+        </aside>
+        <br />
+
+        <table border="1">
+            <thead>
+            <caption>my daily activity</caption>
+            <tr>
+                <th rowspan="2"></th>
+                <th rowspan="2">TIME</th>
+                <th rowspan="2">ACTIVITY</th>
+            </tr></thead>
+            <tbody>
+            <tr>
+                <th>morning</th>
+                <td> 
+                    <time datetime="9:00">9am</time>-<time datetime="12:00">12pm</time>
+                </td>
+                <td>write code</td>
+            </tr>
+            <tr>
+                <th>break</th>
+                <td>
+                    <time datetime="12:00">12pm</time>-<time datetime="1:00">1pm</time>
+                </td>
+                <td>lunch time</td>
+            </tr>
+            <tr>
+                <th>afternoon</th>
+                <td>
+                    <time datetime="3:00">3pm</time>-<time datetime="6:00">6pm</time>
+                </td>
+                <td>study zoho crm</td>
+            </tr>
+            <tr>
+            <th rowspan="2">evening</th>
+            <td rowspan="2">free time</td>
+            <td></td>
+        </tr>
+            <tr>
+                <td>sleep</td>
+            </tr> 
+            <tr>
+                <td>cook</td>
+            </tr>
+      </tbody>
+        <tfoot>
+            <tr>
+            </tr>
+        </tfoot>
+        </table>
+
+
+    <!-- <table>
+            <thead>
+                <tr>
+                    <th>TIME</th>
+                    <th>ACTIVITY</th>
+                </tr>
+                <tr>
+                    <th>morning</th>
+                    <td>
+                        <time datetime="7:00">7am</time>-<time datetime="10:00">10am</time>
+                    </td>
+                    <td>write code for 2 hrs</td>
+                </tr>
+                <tr>
+                    <th>break</th>
+                    <td>
+                        <time datetime="10:00">10am</time>-<time datetime="12:00">12pm</time>
+                    </td>
+                    <td>take breakfast</td>
+                </tr>
+                <th>afternoon</th>
+                <td>
+                    <time datetime="12:00">12am</time>-
+                </td>
+            </thead>
+    </table> -->
+
+
+        <figure>
+        <img src="img/heart-1192662_640.jpg" alt="the heart of nation" title="a  heart is made of gold" width="250" height="250">
+    <figcaption>the heart of Human</figcaption>
+</figure>
+    <li><p>i have herad alot about here:</p>
+        <address>
+            j/128 ofe street ogabgi akoko ondo state nigeria <br>
+            ife lodun irun akoko omo iyeloja <br>
+            egun street,elegun oba aminoye ibarapo
+        </address></li> 
+        <figure>
+        <img src="img/download.jpg" alt="akoko" title="the akoko land">
+        <figcaption>the sunset from the east</figcaption>
+    </figure>
+    </ul>
+        <!-- add more to the list later-->
+        <dl>
+            <dt>the south pole</dt>
+            <dd>very cold place</dd>
+
+            <dt>north pole</dt>
+            <dd>extremly cold as well</dd>
+        </dl>
+    </section>
+
+        <hr>
+        <article id="contact">
+            <h3>contact me</h3>
+            <p>id really be glad to hear from you</p>
+            <form action="https://httpbin.org/get" method="get">
+            </form>
+        </article>
+        <form>
+        <fieldset><legend>my personal information</legend>
+                <p>
+
+        <label for="firstName"> first Name</label>
+        <input type="text" name="firstName" id="firstName" placeholder="adonis" required></p>
+
+        <p>
+        <label for="lastName"> last Name</label>
+        <input type="text" name="lastName" id="lastName" placeholder="gem" required></p>
+
+       <p> <label for="password"> password</label>
+        <input type="password" name="password" id="password" placeholder="your secret" required></p>
+
+       <p> <label for="phone"> phone</label>
+        <input type="tel" name="phone" id="phone" placeholder="1234567890" required></p>
+
+        <p><label for="decade">favourite decade</label>
+        <input type="number" name="decade" id="decade" min="1960" max="2023" step="5" value="1990"></p>
+        <p>
+        <label for="regular coffee">regular coffee</label>
+        <select name="coffee" id="coffee">
+            <option value="rabinna">rabinna</option>
+            <option value="chocomilo">chocomilo</option>
+            <option value="choko rig">choko rig</option>
+            <option value="viju milk">viju milk</option>
+            <option value="lacasera">lacasera</option>
+            <option value="malt">malt</option>
+            <option value="other">other</option>
+        </select>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>my favourite food
+        </legend>
+        <p>
+            <input type="radio" name="food" id="tacos" value="tacos">
+            <label for="tacos">Tacos</label>
+        </p>
+        <p>
+            <input type="radio" name="food" id="pizza" value="pizza">
+            <label for="pizza">Pizza</label>
+        </p>
+        <p>
+            <input type="radio" name="food" id="shawama" value="shawama">
+            <label for="shawama">Shawama</label>
+        </p>
+        <p>
+            <input type="radio" name="food" id="other" value="other">
+            <label for="other">Other</label>
+        </p>
+    </fieldset>
+    <fieldset>
+        <p>
+        <input type="checkbox" name="pets" id="fish" value="fish">
+        <label for="fish">Fish</label></p>
+        <p>
+        <input type="checkbox" name="pets" id="dog" value="dog">
+        <label for="dog">dog</label></p>
+        <p>
+        <input type="checkbox" name="pets" id="cat" value="cat">
+        <label for="cat">cat</label></p>
+        <p>
+        <input type="checkbox" name="pets" id="otherpet" value="otherpet">
+        <label for="otherpet">otherpet</label></p>
+    </fieldset>
+    <fieldset>
+        <legend>take a note here</legend>
+        <label for="message">MY MESSAGE</label>
+        <br>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="type my message here"></textarea>
+    </fieldset>
+    <br>
+<button type="reset">reset</button>
+<button type="submit" formaction="https://httpbin.org/post" formmethod="post">post</button>
+<button type="submit">submit</button>
+</form>
+    
+
+        &lt;&lt;&lt;&copy; <a href="about.html">ADONIS GEM</a> &gt;&gt;&gt;
+    </body>
+</html>
