@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my project</title>
+    <link rel="stylesheet" href="black.css" />
+  </head>
+  <body>
+    <h3>
+      <strong class="black">BLACKSBURG</strong>
+      <strong class="courage">COUGARS</strong>
+    </h3>
+    <p class="college">XYZ Community College Application</p>
+    <form>
+      <div class="double-input-container">
+        <div class="input-container">
+          <label for="Name">Name</label>
+          <input type="text" id="Name" required />
+          <span class="helper-text">prefix</span>
+        </div>
+        <div class="input-container small-input">
+          <input type="text" id="name" required />
+          <span class="helper-text">firstname</span>
+        </div>
+        <div class="input-container">
+          <input type="text" id="fullname" required />
+          <span class="helper-text">initial</span>
+        </div>
+        <div class="input-container">
+          <input type="text" id="lastname" required />
+          <span class="helper-text">last name</span>
+        </div>
+        <div class="input-container">
+          <input type="text" id="suffix" required />
+          <span class="helper-text">suffix</span>
+        </div>
+      </div>
+
+      <br />
+      <div class="double-input-container">
+        <div class="input-container">
+          <label for="social security">preferred Name</label>
+          <input type="text" id="security" required />
+          <span class="helper-text">firstname</span>
+        </div>
+        <div class="input-container">
+          <input type="text" id="lastname" required />
+          <span class="helper-text">lastname</span>
+        </div>
+      </div>
+      <div class="double-input-container">
+        <div class="input-container">
+          <label for="social security">former name</label>
+          <input type="text" id="security" required />
+          <span class="helper-text">firstname</span>
+        </div>
+        <div class="input-container">
+          <input type="text" id="lastname" required />
+          <span class="helper-text">lastname</span>
+        </div>
+      </div>
+      <div class="input-container">
+        <label for="gender">gender</label>
+        <input type="text" id="lastname" required />
+      </div>
+      <div class="input-container">
+        <label for="gender">preferred pronoun</label>
+        <input type="text" id="lastname" required />
+      </div>
+      <br />
+      <div class="input-container">
+        <label for="Name">date of birth</label>
+        <div>
+          <input type="number" id="day" min="1" max="30" step="1" value="1" />
+          <input type="number" id="month" min="1" max="12" step="1" value="0" />
+          <input
+            type="number"
+            id="day"
+            min="1990"
+            max="2023"
+            step="1"
+            value="1990"
+          />
+        </div>
+      </div>
+      <br />
+      <div class="input-container">
+        <label for="gender">social security number</label>
+        <input type="number" id="number" required />
+      </div>
+      <br />
+      <div class="input-container">
+        <label for="gender">parmanet legal address</label>
+        <input type="text" id="text" required />
+        <input type="text" id="text" required />
+      </div>
+
+      <br />
+      <div class="double-input-container">
+        <div class="input-container">
+          <input type="text" id="security" required />
+          <span class="helper-text">city</span>
+        </div>
+        <div class="input-container">
+          <select name="state" id="state">
+            <option value="california">califonia</option>
+            <option value="alabama">alabama</option>
+            <option value="alaska">alaska</option>
+            <option value="arizona">arizona</option>
+            <option value="florida">florida</option>
+            <option value="delaware">delaware</option>
+            <option value="washington">washington</option>
+            <option value="texas">texas</option>
+          </select>
+          <span class="helper-text">state</span>
+        </div>
+        <div class="input-container">
+          <label for=""></label>
+          <input type="number" id="number" required />
+          <span class="helper-text">zip code</span>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

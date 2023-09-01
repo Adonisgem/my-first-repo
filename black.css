@@ -1,0 +1,33 @@
+.double-input-container{
+    display: flex;
+    gap: 10px;
+    align-items: end;
+}
+.double-input-container>.input-container{
+    flex:1
+}
+.double-input-container>.input-container.small-input{
+    max-width: 100px
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.input-container>.helper-text{
+    font-size: 13px;
+}
+.double-input-container>.input-container.small-inpute{
+    max-width: 50px
+}
+.college{
+    border: solid;
+    background: lightgrey;
+    border-width: 1px;
+}
+.courage{
+    color: yellow;
+}
+.black{
+    color: sienna;
+}
